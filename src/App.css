@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ 
+body {
+    background-color: rgb(163, 221, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+.logoDiv {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    height: 60px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(133, 133, 133);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.inputNamediv {
+    height: 60vh;
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputName {
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: #e4e4e4;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 40px;
+}
+
+.inputName:focus {
+    background-color: whitesmoke;
+}
